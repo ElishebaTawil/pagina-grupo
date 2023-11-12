@@ -5,11 +5,12 @@ body {
     padding: 0;
     width: 100%;
 }
+
 header{
     width: 100%;
     background-color: #244667;
-}
 
+}
 
 /* Estilos de la barra de navegación */
 nav {
@@ -19,6 +20,7 @@ nav {
     align-items: center;
     padding: 0.625rem 0;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 nav .logo img {
@@ -248,6 +250,8 @@ main{
     width: 35rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     
 }
 .textoProy1 h1{
@@ -435,5 +439,34 @@ main {
    
 
 }
+/*-----------------------------sitio web-------------*/
+.videoPres video{
+    width:640px; 
+    height:360px;
+}
 
+@media all and (max-width: 768px) {
+    body{
+        width: auto;
+    }
+    header .nav{
+        width: auto;
+        margin-right: 0;
+    }
+    
+    .textoProy1{
+        width: 40%;
+        text-align: center;
+        
+    }
+    
+    .videoPres video{
+        width:22rem; 
+        height:20rem;
+        
+        
+    }
+}
+
+    
 
